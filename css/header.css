@@ -1,0 +1,14 @@
+header {
+    background-image: url('../images/psg-stadium.jpg');
+    height: 100vh;
+    box-shadow: rgb(0, 0, 0,0.7) 0 0 0 1000px inset;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.logo-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
