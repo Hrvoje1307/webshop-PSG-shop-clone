@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+/* font-family: 'Rubik', sans-serif; */
+
 header {
     background-image: url('../images/psg-stadium.jpg');
     height: 100vh;
@@ -7,8 +10,67 @@ header {
 }
 
 .logo-section {
+    display:flex;
+    justify-content: center;
+    float: center;
+    margin-top: 50px;
+}
+
+.menu ul{
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 50px;
+    list-style: none;
     margin-top: 50px;
+    color:white;
+    font-family: 'Rubik', sans-serif;
+    font-size: 25px;
+    font-weight: 300;
+    transition: all linear 0.5s;
+}
+
+.menu a {
+    color:white;
+    text-decoration: none;
+}
+
+
+
+.menu ul li a:hover {
+    font-size: 30px;
+    font-weight: 600;
+    transition: all linear 0.5s;
+}
+
+.btns {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:50px;
+    margin-top: 50px;
+}
+
+.btns button {
+    border: transparent;
+    border-radius:90px;
+    padding: 10px;
+    background-color: white;    
+    transition: 0.3s all ease-in ;
+}
+
+.btns button:hover {
+    border: 3px solid rgb(255, 0, 0);
+    transition: 0.3s all ease-in ;
+}
+
+.heading {
+    height: 70vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.heading h1 {
+    font-size: 50px;
+    color: white;
 }
