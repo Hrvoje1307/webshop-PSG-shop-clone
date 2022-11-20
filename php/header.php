@@ -2,7 +2,7 @@
     <div class="row">
         <div class="col-md-3">
             <div class="logo-section">
-            <a href="#Home"><img src="./images/logo.png" alt="logo"></a>
+            <a href="index.php?page=pocetna"><img src="./images/logo.png" alt="logo"></a>
             </div>
         </div>
         <div class="col-md-6">
@@ -21,14 +21,20 @@
             </div>
         </div>
     </div>
-    <div class="row">
-        <div class="col-md-2"></div>
-        <div class="col-md-8">
-            <div class="heading">
-                <h1>Ici c'est Paris</h1>
+    <div class="center-part">
+        <div class="row">
+            <div class="col-xl-12">
+                <div class="heading">
+                    <h1>Ici c'est Paris</h1>
+                </div>
+                <div class="heading">
+                    <h2>Where all your wishes come true!</h2>
+                </div>
+                <div class="heading">
+                    <a href="#"><button class="btn btn-primary">Let's start</button></a>
+                </div>
             </div>
         </div>
-        <div class="col-md-2"></div>
     </div>
 </div>
 

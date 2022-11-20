@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
 /* font-family: 'Rubik', sans-serif; */
+::selection {
+    background-color:black;
+    color:red;
+}
 
 header {
     background-image: url('../images/psg-stadium.jpg');
@@ -38,7 +42,6 @@ header {
 
 
 .menu ul li a:hover {
-    font-size: 30px;
     font-weight: 600;
     transition: all linear 0.5s;
 }
@@ -60,17 +63,39 @@ header {
 }
 
 .btns button:hover {
-    border: 3px solid rgb(255, 0, 0);
+    background-color: rgb(146, 146, 146);
     transition: 0.3s all ease-in ;
 }
 
-.heading {
+.center-part {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     height: 70vh;
+}
+
+.heading {
+    display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .heading h1 {
-    font-size: 50px;
+    font-size: 80px;
+    font-weight:bold;
     color: white;
 }
+
+.heading h2 {
+    font-size: 40px;
+    color: white;
+}
+
+.heading button {
+    margin-top: 20px;
+    width:300px;
+    height: 50px;
+    border-radius: 50px;
+}
+
