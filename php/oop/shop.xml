@@ -1,0 +1,15 @@
+<articles>
+  <article>
+    <id>6</id>
+    <name>Mens Home (A) Shirt 22/23</name>
+    <url>image1.webp</url>
+    <price>140</price>
+  </article>
+
+  <article>
+    <id>7</id>
+    <name>Mens Home Shirt 22/23 White</name>
+    <url>image2.webp</url>
+    <price>90</price>
+  </article>
+</articles>

@@ -1,3 +1,5 @@
+<?php require_once("./php/pages/visit-counter.php");?>
+
 <div class="container-fluid">
     <div class="row">
         <div class="col-md-6">
@@ -9,7 +11,6 @@
             <h1 class="heading-list">Links</h1>
             <ul class="links">
                 <a href="index.php?page=shop"><li>Shop</li></a>
-                <a href="index.php?page=player"><li>Player</li></a>
                 <a href="index.php?page=contact"><li>Contact us</li></a>
             </ul>
         </div>
@@ -17,7 +18,7 @@
     <hr>
     <div class="row">
         <?php
-            echo'<div class="footer-botton">Broj posjeta: | © Hrvoje Čučković, 2022 | Ici cest Paris</div>';
+            echo'<div class="footer-botton">Broj posjeta:'.getVisitCounter().' | © Hrvoje Čučković, 2022 | Ici cest Paris</div>';
         ?>
     </div>
 </div>

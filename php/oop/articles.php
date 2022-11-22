@@ -28,4 +28,11 @@
     $article ["3"]=new Articles("3","Third kit","./images/items/third-kit.png","90");
     $article ["4"]=new Articles("4","Goalkeeper kit","./images/items/goal-kit.png","92");
     $article ["5"]=new Articles("5","Psg hoodie","./images/items/hoodie.png","60");
+
+    // $xml = simplexml_load_file('shop.xml');
+
+    // foreach($xml as $x) {
+    //     $article[".$x->id."] = new Articles(strval($x->id), strval($x->name), strval($x->url), strval($x->price));
+    // }
+
 ?>

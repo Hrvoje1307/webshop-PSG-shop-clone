@@ -9,7 +9,6 @@
             <div class="menu">
                 <ul>
                     <li><a href="index.php?page=shop">Shop</a></li>
-                    <li><a href="index.php?page=players">Players</a></li>
                     <li><a href="index.php?page=contact">Contact us</a></li>
                 </ul>
             </div>
